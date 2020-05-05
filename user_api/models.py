@@ -14,3 +14,9 @@ def create_tables(app):
     db.netadata.create_all(engine)
     return engine
 
+class Customer(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    email = db.Column(db.String(120), unique=True, nullable=False)
+    firstName = db.Column(db.String(50),unique=False, nullable=True)
+    lastName = db.Column(db.String(50),unique=False, nullable=True)
+    
