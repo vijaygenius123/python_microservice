@@ -16,3 +16,11 @@
 2. Difficult to test
 3. More security points to consider
 4. Can lead to complicated and duplicated dependencies
+
+## Technology Stack
+
+1. Python
+    - Flask
+2. Swagger
+3. MySQL 
+4. Docker
